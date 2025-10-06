@@ -1,0 +1,13 @@
+Conclusiones
+
+* Karate facilita la automatización de pruebas API con sintaxis sencilla, permitiendo validaciones tanto de status HTTP como del contenido JSON.
+
+* Separar escenarios de login y signup mejora la mantenibilidad, aunque pueden combinarse para pruebas end-to-end, como registro + login en un solo flujo.
+
+* Las pruebas data-driven agilizan la validación de múltiples casos sin repetir código.
+
+* La correcta gestión de recursos .feature y configuración Maven es clave para una ejecución fluida.
+
+* El uso de variables dinámicas (ej. usuarios únicos) evita conflictos en entornos compartidos.
+
+* Karate es especialmente útil para equipos que prefieren escribir tests en un lenguaje declarativo cercano a Gherkin y JSON.
